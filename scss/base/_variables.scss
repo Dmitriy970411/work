@@ -1,0 +1,51 @@
+$milk: #ededed;
+$white: #ffffff;
+$green: #38ffbb;
+$red: #ff5948;
+$gray: #8e8e8e;
+$orange: #eeab05;
+$black: #1d1d1d;
+
+$base-font-sans-serif:'Brother 1816 Printed Regular', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+
+$rem-base: 16px;
+
+// Body
+$base-text-color: $black;
+$base-background-color: $white;
+$font-size-base: 16px;
+$line-height-base: 1.1;
+$base-font-family: $base-font-sans-serif !default;
+$base-min-width: 320px;
+
+// Liks
+$base-link-color: $white;
+
+// Buttons 
+$btn-color: $white;
+$btn-background: $black;
+$btn-padding: 1rem;
+$btn-font-size: 1.25rem;
+
+// Forms
+$form-element-padding: $btn-padding !default;
+$form-element-border-color: $white;
+$form-element-focus-border-color: $white;
+$placeholder-color: $black;
+$placeholder-font-size: 1rem;
+
+// Headers
+$h1-font-size: 45px;
+$h2-font-size: 35px;
+$h3-font-size: 24px;
+$h4-font-size: 14px;
+$h5-font-size: 12px;
+$h6-font-size: 10px;
+
+
+$headings-font-family: inherit !default;
+$headings-color: $black;
+
+
+$animation-speed: 0.3s;

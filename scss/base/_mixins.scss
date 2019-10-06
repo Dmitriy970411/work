@@ -1,0 +1,24 @@
+// @include background-image
+@mixin background-image {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+// @include vertical-align-el
+@mixin vertical-align-el {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+// @include size
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
+// @include hide-text
+@mixin hide-text {
+	overflow: hidden;
+	text-indent: 101%;
+	white-space: nowrap;
+}
+

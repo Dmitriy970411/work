@@ -1,0 +1,149 @@
+// Typography
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+.h {
+	font-family: $headings-font-family;
+	font-weight: 700;
+	margin: 0 0 1rem;
+	color: $headings-color;
+}
+
+h1,
+.h1 {
+	font-size: $h1-font-size;
+	font-weight: normal;
+
+	@include media ('<=desktop') {
+		font-size: 40px;
+	}
+
+	@include media ('<=tablet') {
+		font-size: 35px;
+	}
+
+	@include media ('<=576px') {
+		font-size: 24px;
+	}
+
+}
+
+
+h2,
+.h2 {
+	font-size: $h2-font-size;
+	font-weight: normal;
+
+	@include media ('<=desktop') {
+		font-size: 30px;
+	}
+
+	@include media ('<=tablet') {
+		font-size: 24px;
+	}
+
+	@include media ('<=576px') {
+		font-size: 20px;
+	}
+
+}
+
+h3,
+.h3 {
+	font-size: $h3-font-size;
+
+	@include media ('<=desktop') {
+		font-size: 17px;
+	}
+
+	@include media ('<=tablet') {
+		font-size: 17px;
+	}
+
+	@include media ('<=576px') {
+		font-size: 18px;
+	}
+
+}
+
+h4,
+.h4 {
+	font-size: $h4-font-size;
+
+	@include media ('<=desktop') {
+		font-size: 17px;
+	}
+
+	@include media ('<=tablet') {
+		font-size: 16px;
+	}
+
+	@include media ('<=576px') {
+		font-size: 16px;
+	}
+}
+
+h5,
+.h5 {
+	font-size: $h5-font-size;
+}
+
+h6,
+.h6 {
+	font-size: $h6-font-size;
+}
+
+p {
+	margin: 0 0 1rem;
+	font-size: 1rem;
+	line-height: 1.2;
+
+		@include media ('<=desktop') {
+			font-size: 15px;
+		}
+
+		@include media ('<=tablet') {
+			font-size: 14px;
+		}
+
+		@include media ('<=576px') {
+			font-size: 14px;
+		}
+}
+
+
+body {
+	color: $base-text-color;
+	background: $base-background-color;
+	font: #{$font-size-base}/#{$line-height-base} $base-font-family;
+	min-width: $base-min-width;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+img {
+	object-fit: cover;
+	object-position: center;
+	height: 100%;
+}
+
+section {
+	padding: 25px 0;
+
+	@include media ('>=tablet') {
+	    padding: 50px 0;
+
+	}
+
+	@include media ('>=desktop') {
+	    padding: 100px 0;
+	}
+}
+
+// google map fix
+.gm-style img {max-width: none}

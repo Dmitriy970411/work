@@ -1,0 +1,25 @@
+@import'vendors/icomoon';
+@import 'vendors/include-media';
+@import 'vendors/fonts';
+@import 'vendors/breakpoints_media-expressions';
+@import 'vendors/normalize';
+@import 'vendors/bootstrap';
+@import 'vendors/slick';
+
+
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/pattern-selectors';
+@import 'base/typography';
+@import 'base/forms';
+
+@import 'components/form';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/homepage';
+
+
+
+
